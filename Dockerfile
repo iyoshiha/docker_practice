@@ -1,3 +1,3 @@
-FROM debian:wheezy
-
-RUN apt update && apt install -y cowsay fortune
+FROM debian
+RUN apt update 
+RUN apt install -y cowsay fortune
